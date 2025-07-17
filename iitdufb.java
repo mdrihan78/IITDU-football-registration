@@ -209,6 +209,9 @@ public class iitdufb {
           degreeBox.setSelectedIndex(0);
           filePathLabel.setText("");
           selectedFilePath[0] = "";
+          expField.setText("");
+          positionBox.setSelectedIndex(0);
+          intdepGroup.clearSelection();
         } catch (IOException ex) {
           JOptionPane.showMessageDialog(frame, "Error writing to file !", "Error", JOptionPane.ERROR_MESSAGE);
           ex.printStackTrace();
